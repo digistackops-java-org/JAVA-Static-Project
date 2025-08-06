@@ -126,8 +126,9 @@ Add  these configuration within the <tomcat-users> and </tomcat-users> tags
 
 #### Need to Access Tomcat Server Form Anywhere or from Any IP-Address
 
-**sudo vim /opt/tomcat/webapps/manager/META-INF/context.xml**
-
+```
+sudo vim /opt/tomcat/webapps/manager/META-INF/context.xml
+```
 
 Edit that Line Like These We need to add ".*" at the end
 ```
