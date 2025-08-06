@@ -48,8 +48,8 @@ sudo useradd -g tomcat -d /opt/tomcat -s /bin/false tomcat
 #### Download and Install Tomcat
 ```
 cd /tmp
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.106/bin/apache-tomcat-9.0.106.tar.gz
-sudo tar -xvf apache-tomcat-9.0.106.tar.gz -C /opt/tomcat --strip-components=1
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.107/bin/apache-tomcat-9.0.107.tar.gz
+sudo tar -xvf apache-tomcat-9.0.107.tar.gz -C /opt/tomcat --strip-components=1
 ```
 #### Configure Permissions
 ```
