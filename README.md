@@ -19,3 +19,8 @@ mvn clean package
 ```
 sudo cp target/maven-web-application.war /opt/tomcat/webapps
 ```
+
+### Access Your App in Browser
+```
+http://<AWS-Public-IP>:8080/sapsecops
+```
