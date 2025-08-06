@@ -2,8 +2,13 @@
 
 ### Clone the Repo
 ```
-git clone https://github.com/techizone-Small-Project-org/JAVA-Static-Project.git
+sudo git clone https://github.com/techizone-Small-Project-org/JAVA-Static-Project.git
+
+```
+### Awitch to Local-Setup Branch
+```
 cd JAVA-Static-Project
+sudo git checkout Local-setup
 ```
 
 ### Execute mvn command to create Package
@@ -12,5 +17,5 @@ mvn clean package
 ```
 ### Deploy these Artifact to Tomcat-Dev
 ```
-cp
+sudo cp target/maven-web-application.war /opt/tomcat/webapps
 ```
