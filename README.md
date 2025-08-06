@@ -3,7 +3,7 @@
 ### Clone the Repo
 ```
 git clone https://github.com/techizone-Jenkins-org/Jenkins-Maven-LAB.git
-cd Jenkins-Maven-LAB/01.MVN_buid-Artifact
+cd JAVA-Static-Project
 ```
 
 ### Execute mvn command to create Package
