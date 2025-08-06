@@ -17,7 +17,7 @@ mvn clean package
 ```
 ### Deploy these Artifact to Tomcat-Dev
 ```
-sudo cp target/maven-web-application.war /opt/tomcat/webapps
+sudo cp target/sapsecops.war /opt/tomcat/webapps
 ```
 
 ### Access Your App in Browser
