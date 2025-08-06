@@ -66,7 +66,7 @@ sudo chmod +x shutdown.sh
 
 #### Create Service File
 ```
-sudo vi /etc/systemd/system/tomcat.service**
+sudo vi /etc/systemd/system/tomcat.service
 ```
 ```
 [Unit]
