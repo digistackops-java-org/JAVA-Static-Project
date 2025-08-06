@@ -2,7 +2,7 @@
 
 ### Clone the Repo
 ```
-git clone https://github.com/techizone-Jenkins-org/Jenkins-Maven-LAB.git
+git clone https://github.com/techizone-Small-Project-org/JAVA-Static-Project.git
 cd JAVA-Static-Project
 ```
 
