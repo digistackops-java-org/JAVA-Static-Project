@@ -5,12 +5,18 @@ Launch Ec2 Instance and use Amazon Linux 2 AMI with t2.micro Instance
 ```
 # Tools Setup For the Project 
 
+####  Install GIT
+```
+sudo yum install git -y
+``` 
+
 ## Install JAVA
 ####  Installation of openJDK 17
 ```
 sudo dnf update -y
 sudo yum install java-17-amazon-corretto-devel -y
 ``` 
+
 ## Install Maven
 ```
 sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.tar.gz
