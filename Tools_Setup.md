@@ -1,7 +1,9 @@
 
 # LAB-Setup
+
 ```
-Launch Ec2 Instance and use Amazon Linux 2 AMI with t2.micro Instance
+Launch Ec2 Instance and use Amazon Linux 2 AMI with t2.micro Instance and 
+open port "8080" in Seaurity Group for TOMCAT
 ```
 # Tools Setup For the Project 
 
