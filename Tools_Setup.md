@@ -108,19 +108,22 @@ sudo systemctl start tomcat
 sudo vim /opt/tomcat/conf/tomcat-users.xml
 ```
 
-Add  these configuration within the <tomcat-users> and </tomcat-users> tags
+Remove and Replace with  below these configuration within the <tomcat-users> and </tomcat-users> tags
 
 ```
-<role rolename="admin"/>
-<role rolename="admin-gui"/>
-<role rolename="admin-script"/>
-<role rolename="manager"/>
-<role rolename="manager-gui"/>
-<role rolename="manager-script"/>
-<role rolename="manager-jmx"/>
-<role rolename="manager-status"/>
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users>
+  <role rolename="admin"/>
+  <role rolename="admin-gui"/>
+  <role rolename="manager"/>
+  <role rolename="admin-script"/>
+  <role rolename="manager-gui"/>
+  <role rolename="manager-script"/>
+  <role rolename="manager-jmx"/>
+  <role rolename="manager-status"/>
+  <user username="tomcat" password="tomcat" roles="admin,manager,admin-gui,admin-script,manager-gui,manager-script,manager-jmx,manager-status"/>
+</tomcat-users>
 
-<user username="Your-username-HERE" password="Your-Password-HERE"  roles="admin,manager,admin-gui,admin-script,manager-gui,manager-script,manager-jmx,manager-status" />
 
 ```
 
@@ -129,9 +132,14 @@ Add  these configuration within the <tomcat-users> and </tomcat-users> tags
 ```
 sudo vim /opt/tomcat/webapps/manager/META-INF/context.xml
 ```
-
-Edit that Line Like These We need to add ".*" at the end
+Remove and Replace with the Below Content
 ```
-allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1 |.*" />
-
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking="false" privileged="true" >
+  <CookieProcessor className="org.apache.tomcat.util.http.Rfc6265CookieProcessor"
+                   sameSiteCookies="strict" />
+  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1 |.*" />
+  <Manager sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?HashMap"/>
+</Context>
 ```
