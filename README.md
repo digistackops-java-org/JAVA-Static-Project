@@ -1,4 +1,4 @@
-## Refer Tools_setup.md for Installing Tools for these Project
+## Refer Tools_setup.md for Installing Required Tools for these Project
 
 ### Clone the Repo
 ```
@@ -8,7 +8,7 @@ sudo git clone https://github.com/techizone-Small-Project-org/JAVA-Static-Projec
 ### Awitch to Local-Setup Branch
 ```
 cd JAVA-Static-Project
-sudo git checkout Local-setup
+sudo git checkout 01-Local-setup
 ```
 
 ### Execute mvn command to create Package
