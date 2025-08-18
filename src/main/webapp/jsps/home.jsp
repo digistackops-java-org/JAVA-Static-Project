@@ -44,8 +44,8 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>SapSecOps Solutions - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2022 by <a href="http://sapsecopssolutions.com/">SapSecOps Solutions,Seikalahsti</a> </small></p>
+<p align=center>DigiStack Solutions - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2022 by <a href="http://digistacksolutions.com/">DigiStack Solutions,Srikalahsti</a> </small></p>
 
 </body>
 </html>
