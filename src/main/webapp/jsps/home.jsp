@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>SapSecOps Solutions- Home Page</title>
+<title>DigiStack Solutions- Home Page</title>
 <link href="images/secopssolution.png" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to SapSecOps Solutions Pvt Ltd. </h1>
-<h1 align="center"> SapSecOps Solutions- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect in Bangalore India.Teaching Real Time scnerios</h1>
+<h1 align="center">Welcome to DigiStack Solutions Pvt Ltd. </h1>
+<h1 align="center"> DigiStack Solutions- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect in India.Teaching Real Time scnerios</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -31,7 +31,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/secops-solution.png" alt="" width="100">
+		<img src="images/SSO.png" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
 		SapSecOps Solutions, 
