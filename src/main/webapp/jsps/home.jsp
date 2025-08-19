@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>DigiStack Solutions - Home Page</title>
+<title>SapSecOps Solutions - Home Page</title>
 <link href="images/SSO.png" rel="icon">
 <style>
   body {
@@ -60,7 +60,7 @@
 
   <!-- Scrolling Header -->
   <div class="header">
-    <div class="header-text">✨ DigiStack Solutions Java Project-V1 ✨</div>
+    <div class="header-text">✨ SapSecOps Solutions Java Project-V1 ✨</div>
   </div>
 
   <!-- Server Info -->
@@ -96,9 +96,9 @@
 
   <!-- Footer -->
   <div class="footer">
-    DigiStack Solutions - Consultant, Training, Development Center. <br>
+    SapSecOps Solutions - Consultant, Training, Development Center. <br>
     <small>Copyright © <%= java.time.Year.now() %> by 
-      <a href="http://digistacksolutions.com/">DigiStack Solutions, Srikalahsti</a>
+      <a href="http://SapSecOpssolutions.com/">SapSecOps Solutions, Srikalahsti</a>
     </small>
   </div>
 
