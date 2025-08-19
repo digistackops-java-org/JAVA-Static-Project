@@ -8,6 +8,7 @@ sudo git clone https://github.com/digistackops-java-org/JAVA-Static-Project-Loca
 ```
 cd JAVA-Static-Project-Local
 sudo git checkout 01-Local-setup
+sudo chown -R ec2-user:ec2-user /home/ec2-user/JAVA-Static-Project-Local 
 ```
 
 ### Execute mvn command to create Package
