@@ -24,3 +24,5 @@ sudo cp target/sapsecops.war /opt/tomcat/webapps
 ```
 http://<AWS-Public-IP>:8080/sapsecops
 ```
+<img width="896" height="516" alt="image" src="https://github.com/user-attachments/assets/e3851726-9362-4cdd-b03a-614c40a779a3" />
+
