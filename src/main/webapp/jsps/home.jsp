@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>DigiStack Solutions- Home Page</title>
-<link href="images/secopssolution.png" rel="icon">
+<title>SapSecOps Solutions- Home Page</title>
+<link href="images/SSO.png" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to DigiStack Solutions Pvt Ltd. </h1>
-<h1 align="center"> DigiStack Solutions- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect in India.Teaching Real Time scnerios</h1>
+<h1 align="center">SapSecOps Solutions JAVA Project-V1 </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
