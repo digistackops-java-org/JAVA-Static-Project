@@ -2,12 +2,11 @@
 
 ### Clone the Repo
 ```
-sudo git clone https://github.com/techizone-Small-Project-org/JAVA-Static-Project.git
-
+sudo git clone https://github.com/digistackops-java-org/JAVA-Static-Project-Local.git
 ```
 ### Awitch to Local-Setup Branch
 ```
-cd JAVA-Static-Project
+cd JAVA-Static-Project-Local
 sudo git checkout 01-Local-setup
 ```
 
