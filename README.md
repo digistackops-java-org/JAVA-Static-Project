@@ -163,7 +163,7 @@ cd JAVA-Static-Project
 Switch branch
 
 ```
-sudo git checkout 01-Local-setup
+sudo git checkout 01-Local-setup-V2
 sudo chown -R $USER:$USER /app/JAVA-Static-Project
 ```
 # Step:4 ==> Build teh Package 
