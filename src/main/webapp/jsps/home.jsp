@@ -8,7 +8,7 @@
 <link href="images/SSO.png" rel="icon">
 <style>
   body {
-    background-color: #f1c40f; /* Yellow */
+    background-color: #66645b; /* Yellow */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
