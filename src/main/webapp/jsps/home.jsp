@@ -60,7 +60,7 @@
 
   <!-- Scrolling Header -->
   <div class="header">
-    <div class="header-text">✨ SapSecOps Solutions Java Project-V1 ✨</div>
+    <div class="header-text">✨ SapSecOps Solutions Java Project-V2 ✨</div>
   </div>
 
   <!-- Server Info -->
